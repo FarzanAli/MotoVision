@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C05C6B5E2DA3304B003BF39F /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C05C6B5D2DA3304B003BF39F /* Secrets.xcconfig */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0AE7AB22D92158200F7CCB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0AE7A992D92158000F7CCB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0AE7AA02D92158000F7CCB2;
+			remoteInfo = Motovision;
+		};
+		C0AE7ABC2D92158200F7CCB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0AE7A992D92158000F7CCB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0AE7AA02D92158000F7CCB2;
+			remoteInfo = Motovision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C05C6B5D2DA3304B003BF39F /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		C0A846122D93EF450031337F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0AE7AA12D92158000F7CCB2 /* Motovision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Motovision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0AE7AB12D92158200F7CCB2 /* MotovisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotovisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0AE7ABB2D92158200F7CCB2 /* MotovisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotovisionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C0AE7AA32D92158000F7CCB2 /* Motovision */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Motovision;
+			sourceTree = "<group>";
+		};
+		C0AE7AB42D92158200F7CCB2 /* MotovisionTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MotovisionTests;
+			sourceTree = "<group>";
+		};
+		C0AE7ABE2D92158200F7CCB2 /* MotovisionUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MotovisionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0AE7A9E2D92158000F7CCB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0AE7AAE2D92158200F7CCB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0AE7AB82D92158200F7CCB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0AE7A982D92158000F7CCB2 = {
+			isa = PBXGroup;
+			children = (
+				C0A846122D93EF450031337F /* Info.plist */,
+				C0AE7AA32D92158000F7CCB2 /* Motovision */,
+				C0AE7AB42D92158200F7CCB2 /* MotovisionTests */,
+				C0AE7ABE2D92158200F7CCB2 /* MotovisionUITests */,
+				C0AE7AA22D92158000F7CCB2 /* Products */,
+				C05C6B5D2DA3304B003BF39F /* Secrets.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		C0AE7AA22D92158000F7CCB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0AE7AA12D92158000F7CCB2 /* Motovision.app */,
+				C0AE7AB12D92158200F7CCB2 /* MotovisionTests.xctest */,
+				C0AE7ABB2D92158200F7CCB2 /* MotovisionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0AE7AA02D92158000F7CCB2 /* Motovision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0AE7AC52D92158200F7CCB2 /* Build configuration list for PBXNativeTarget "Motovision" */;
+			buildPhases = (
+				C0AE7A9D2D92158000F7CCB2 /* Sources */,
+				C0AE7A9E2D92158000F7CCB2 /* Frameworks */,
+				C0AE7A9F2D92158000F7CCB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C0AE7AA32D92158000F7CCB2 /* Motovision */,
+			);
+			name = Motovision;
+			packageProductDependencies = (
+			);
+			productName = Motovision;
+			productReference = C0AE7AA12D92158000F7CCB2 /* Motovision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0AE7AB02D92158200F7CCB2 /* MotovisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0AE7AC82D92158200F7CCB2 /* Build configuration list for PBXNativeTarget "MotovisionTests" */;
+			buildPhases = (
+				C0AE7AAD2D92158200F7CCB2 /* Sources */,
+				C0AE7AAE2D92158200F7CCB2 /* Frameworks */,
+				C0AE7AAF2D92158200F7CCB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0AE7AB32D92158200F7CCB2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C0AE7AB42D92158200F7CCB2 /* MotovisionTests */,
+			);
+			name = MotovisionTests;
+			packageProductDependencies = (
+			);
+			productName = MotovisionTests;
+			productReference = C0AE7AB12D92158200F7CCB2 /* MotovisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0AE7ABA2D92158200F7CCB2 /* MotovisionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0AE7ACB2D92158200F7CCB2 /* Build configuration list for PBXNativeTarget "MotovisionUITests" */;
+			buildPhases = (
+				C0AE7AB72D92158200F7CCB2 /* Sources */,
+				C0AE7AB82D92158200F7CCB2 /* Frameworks */,
+				C0AE7AB92D92158200F7CCB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0AE7ABD2D92158200F7CCB2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C0AE7ABE2D92158200F7CCB2 /* MotovisionUITests */,
+			);
+			name = MotovisionUITests;
+			packageProductDependencies = (
+			);
+			productName = MotovisionUITests;
+			productReference = C0AE7ABB2D92158200F7CCB2 /* MotovisionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0AE7A992D92158000F7CCB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C0AE7AA02D92158000F7CCB2 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C0AE7AB02D92158200F7CCB2 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C0AE7AA02D92158000F7CCB2;
+					};
+					C0AE7ABA2D92158200F7CCB2 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C0AE7AA02D92158000F7CCB2;
+					};
+				};
+			};
+			buildConfigurationList = C0AE7A9C2D92158000F7CCB2 /* Build configuration list for PBXProject "Motovision" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0AE7A982D92158000F7CCB2;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C0AE7AA22D92158000F7CCB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0AE7AA02D92158000F7CCB2 /* Motovision */,
+				C0AE7AB02D92158200F7CCB2 /* MotovisionTests */,
+				C0AE7ABA2D92158200F7CCB2 /* MotovisionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0AE7A9F2D92158000F7CCB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05C6B5E2DA3304B003BF39F /* Secrets.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0AE7AAF2D92158200F7CCB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0AE7AB92D92158200F7CCB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0AE7A9D2D92158000F7CCB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0AE7AAD2D92158200F7CCB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0AE7AB72D92158200F7CCB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0AE7AB32D92158200F7CCB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0AE7AA02D92158000F7CCB2 /* Motovision */;
+			targetProxy = C0AE7AB22D92158200F7CCB2 /* PBXContainerItemProxy */;
+		};
+		C0AE7ABD2D92158200F7CCB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0AE7AA02D92158000F7CCB2 /* Motovision */;
+			targetProxy = C0AE7ABC2D92158200F7CCB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C0AE7AC32D92158200F7CCB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C05C6B5D2DA3304B003BF39F /* Secrets.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0AE7AC42D92158200F7CCB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0AE7AC62D92158200F7CCB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Motovision/Preview Content\"";
+				DEVELOPMENT_TEAM = W8JSYQQCPZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = farzan.Motovision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0AE7AC72D92158200F7CCB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Motovision/Preview Content\"";
+				DEVELOPMENT_TEAM = W8JSYQQCPZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = farzan.Motovision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0AE7AC92D92158200F7CCB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = farzan.MotovisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Motovision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Motovision";
+			};
+			name = Debug;
+		};
+		C0AE7ACA2D92158200F7CCB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = farzan.MotovisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Motovision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Motovision";
+			};
+			name = Release;
+		};
+		C0AE7ACC2D92158200F7CCB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = farzan.MotovisionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Motovision;
+			};
+			name = Debug;
+		};
+		C0AE7ACD2D92158200F7CCB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = farzan.MotovisionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Motovision;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0AE7A9C2D92158000F7CCB2 /* Build configuration list for PBXProject "Motovision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0AE7AC32D92158200F7CCB2 /* Debug */,
+				C0AE7AC42D92158200F7CCB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0AE7AC52D92158200F7CCB2 /* Build configuration list for PBXNativeTarget "Motovision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0AE7AC62D92158200F7CCB2 /* Debug */,
+				C0AE7AC72D92158200F7CCB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0AE7AC82D92158200F7CCB2 /* Build configuration list for PBXNativeTarget "MotovisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0AE7AC92D92158200F7CCB2 /* Debug */,
+				C0AE7ACA2D92158200F7CCB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0AE7ACB2D92158200F7CCB2 /* Build configuration list for PBXNativeTarget "MotovisionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0AE7ACC2D92158200F7CCB2 /* Debug */,
+				C0AE7ACD2D92158200F7CCB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0AE7A992D92158000F7CCB2 /* Project object */;
+}
