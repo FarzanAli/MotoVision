@@ -1,4 +1,5 @@
-# Motovision
+# MotoVision
+An iOS application for connecting to and modifying your motorcycle helmet's MotoVision heads up display
 
 ## API Keys Setup
 
@@ -11,3 +12,5 @@ This project uses API keys for various services. To set up your development envi
 Note: Never commit `Secrets.xcconfig` to version control. It is already added to `.gitignore`.
 
 ## Getting Started
+
+[Add your project setup instructions here]
