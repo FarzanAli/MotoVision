@@ -6,6 +6,8 @@ An iOS application for connecting to and modifying your motorcycle helmet's Moto
   <img src="https://github.com/user-attachments/assets/7d0200ec-f200-40c4-bcc2-e1b5492acf9d" width="35%"/>
 </p>
 
+The consumer of the display modifying commands can be found in the [MotoVision-HUD repo](https://github.com/FarzanAli/MotoVision-HUD)
+
 https://github.com/user-attachments/assets/08e83533-dcc2-4786-9897-270e23f2cb74
 
 
