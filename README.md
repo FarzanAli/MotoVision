@@ -18,5 +18,3 @@ This project uses API keys for various services. To set up your development envi
    - `WEATHER_API_KEY`: Your OpenWeather API key from [OpenWeather](https://openweathermap.org/api)
 
 Note: Never commit `Secrets.xcconfig` to version control. It is already added to `.gitignore`.
-
-## Getting Started
